@@ -19,7 +19,7 @@ class Marker extends Pen
 	 *
 	 * @param tipShape 	the shape of the writing tip.
 	 */
-	private void setTipShape(String tipShape)
+	public void setTipShape(String tipShape)
    {
 		if (   (tipShape == "chisel")
           || (tipShape == "bullet")
