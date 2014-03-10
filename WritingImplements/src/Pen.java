@@ -61,10 +61,11 @@ class Pen extends WritingImplement
 
         
         
-    /// <summary>
-    /// A method to simulate the pen crossing out words (since it can't erase)
-    /// </summary>
-    /// <param name="words">the words marked out</param>
+    /**
+     * A method to simulate the pen crossing out words (since it can't erase)
+     * 
+     * @param words the words being marked out
+     */
     public void markOut(String words)
     {
         System.out.println("The " + inkColor + " pen just marked out the word(s):  " + words);
