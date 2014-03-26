@@ -2,7 +2,7 @@ abstract class WritingImplement
 {
     private String bodyMaterial;
     private double pointSize;
-
+    private double length; 
 
     /**
 	  * Accessor method for pointSize
@@ -12,6 +12,16 @@ abstract class WritingImplement
     public double getPointSize()
     {
        return pointSize;
+    }
+    
+    /**
+     * Method for getting the length
+     * 
+     * @return the length
+     */
+    public double getLength()
+    {
+    	return length;
     }
     
 	 /**
@@ -70,10 +80,12 @@ abstract class WritingImplement
 	  * @param 	bodyMaterial 	The material the object is made of. Must be "plastic", "wooden", or "metal"</param>
      * @param 	pointsize		The size of the writing point. Must be positive.
 	  */
-    public WritingImplement(String bodyMaterial, double pointsize)
+    public WritingImplement(String bodyMaterial, double pointsize, double length)
     {
         setBodyMaterial(bodyMaterial);
         setPointSize(pointsize);
+        this.length = 5.5;
+        
     }
      
 
