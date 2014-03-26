@@ -74,5 +74,11 @@ class Pencil extends WritingImplement
 	{
 		System.out.println("The " + bodyColor + " " + getBodyMaterial() + " pencil just drew: " + shape);
 	}
+   
+   public void sketch(String shape)
+   {
+	 draw(shape);
+   
+   }
 
 }
