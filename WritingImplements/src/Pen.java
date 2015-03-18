@@ -40,11 +40,11 @@ class Pen extends WritingImplement
 
         
     /**
-     * The default constructor for a pen. It creates a plastic pen that writes in black with a 0.5mm tip
+     * The default constructor for a pen. It creates a plastic pen that writes in purple with a 0.5mm tip
      */
     public Pen()
     {
-		  this("black", "plastic", 0.5);
+		  this("purple", "plastic", 0.5);
 
     }
 
