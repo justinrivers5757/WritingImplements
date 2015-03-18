@@ -34,7 +34,7 @@ class Pen extends WritingImplement
 	  */
     public Pen(String inkColor, String bodyMaterial, double tipSize)
     {
-  		  super(bodyMaterial, tipSize);
+  		 super(bodyMaterial, tipSize);
   	     this.inkColor = inkColor;
     }
 

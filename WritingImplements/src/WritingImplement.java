@@ -45,7 +45,7 @@ abstract class WritingImplement
 	 /**
      * Accessor method for bodyMaterial      
 	  *
-	  * @return	the material the implment is made of.
+	  * @return	the material the implement is made of.
 	  */
     public String getBodyMaterial()
     {
@@ -80,7 +80,7 @@ abstract class WritingImplement
 	  * @param 	bodyMaterial 	The material the object is made of. Must be "plastic", "wooden", or "metal"</param>
      * @param 	pointsize		The size of the writing point. Must be positive.
 	  */
-    public WritingImplement(String bodyMaterial, double pointsize, double length)
+    public WritingImplement(String bodyMaterial, double pointsize)
     {
         setBodyMaterial(bodyMaterial);
         setPointSize(pointsize);
