@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getBodyColor()
+comment0.text=\r\n\ Accessor\ method\ for\ bodyColor\r\n\r\n\ returns\ the\ color\ of\ the\ pencil\r\n
+comment1.params=bodyColor
+comment1.target=void\ setBodyColor(java.lang.String)
+comment1.text=\r\n\ Mutator\ method\ for\ bodyColor\r\n\r\n\ @param\ bodyColor\tthe\ color\ of\ the\ pencil.\ can\ be\ any\ string\r\n
+comment2.params=bodyMaterial\ bodyColor\ leadSize
+comment2.target=Pencil(java.lang.String,\ java.lang.String,\ double)
+comment2.text=\r\n\ A\ constructor\ for\ Pencil\ objects\r\n\r\n\ @param\tbodyMaterial\tThe\ material\ the\ pencil\ is\ made\ of.\ Must\ be\ "plastic",\ "wooden",\ or\ "metal"\r\n\ @param\ \tbodyColor\t\tThe\ color\ of\ the\ pencil,\ not\ the\ color\ it\ writes\r\n\ @param\tleadSize\t\t\tThe\ size\ of\ the\ writing\ point\ in\ mm.\r\n
+comment3.params=
+comment3.target=Pencil()
+comment3.text=\r\n\ The\ default\ constructor\ for\ the\ pencil.\ Creates\ a\ yellow\ wooden\ pencil\ with\ 0.5mm\ writing\ point\r\n
+comment4.params=words
+comment4.target=void\ erase(java.lang.String)
+comment4.text=\r\n\ This\ method\ simulates\ the\ pencil\ erasing\ somethig\r\n\r\n\ @param\ \twords\t\tThe\ words\ the\ pencil\ erased\r\n
+comment5.params=shape
+comment5.target=void\ draw(java.lang.String)
+comment5.text=\r\n\ This\ method\ describes\ the\ pencil\ drawing\ something\r\n\r\n\ @param\tshape\t\tThe\ shape\ or\ object\ drawn\r\n
+comment6.params=shape
+comment6.target=void\ sketch(java.lang.String)
+numComments=7

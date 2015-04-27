@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getPointSize()
+comment0.text=\r\n\ Accessor\ method\ for\ pointSize\r\n\r\n\ @return\ the\ size\ of\ the\ writing\ tip\ in\ mm\r\n
+comment1.params=
+comment1.target=double\ getLength()
+comment1.text=\r\n\ Method\ for\ getting\ the\ length\r\n\ \r\n\ @return\ the\ length\r\n
+comment2.params=pointSize
+comment2.target=void\ setPointSize(double)
+comment2.text=\r\n\ Mutator\ method\ for\ pointSize\r\n\r\n\ @param\tpointSize\ \ the\ size\ of\ the\ writing\ tip\ in\ mm\ (must\ be\ postitive,\ defaults\ to\ 0.5)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getBodyMaterial()
+comment3.text=\r\n\ Accessor\ method\ for\ bodyMaterial\ \ \ \ \ \ \r\n\r\n\ @return\tthe\ material\ the\ implement\ is\ made\ of.\r\n
+comment4.params=bodyMaterial
+comment4.target=void\ setBodyMaterial(java.lang.String)
+comment4.text=\r\n\ Mutator\ method\ for\ bodyMaterial\ \ \ \ \ \ \r\n\r\n\ @param\tbodyMaterial\tthe\ material\ the\ implment\ is\ made\ of.\ Must\ be\ one\ of\ "plastic",\ "wooden",\ or\ "metal".\r\n
+comment5.params=bodyMaterial\ pointsize
+comment5.target=WritingImplement(java.lang.String,\ double)
+comment5.text=\r\n\ A\ constructor\ for\ the\ WritingImplement\ class\r\n\r\n\ @param\ \tbodyMaterial\ \tThe\ material\ the\ object\ is\ made\ of.\ Must\ be\ "plastic",\ "wooden",\ or\ "metal"</param>\r\n\ @param\ \tpointsize\t\tThe\ size\ of\ the\ writing\ point.\ Must\ be\ positive.\r\n
+comment6.params=message
+comment6.target=void\ write(java.lang.String)
+comment6.text=\r\n\ A\ method\ to\ simulate\ the\ writing\ implement\ writing\ a\ message.\r\n\r\n\ @param\tmessage\tthe\ message\ the\ writing\ implement\ writes\r\n
+comment7.params=something
+comment7.target=void\ draw(java.lang.String)
+comment7.text=\r\n\ Method\ to\ describe\ the\ writing\ implement\ drawing\ something\r\n\r\n\ @param\tsomething\tthe\ item\ being\ drawn\r\n
+numComments=8

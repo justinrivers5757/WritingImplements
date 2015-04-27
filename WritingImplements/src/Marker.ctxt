@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getTipShape()
+comment0.text=\r\n\ Accessor\ method\ for\ tipShape\r\n\r\n\ returns\ the\ shape\ of\ the\ writing\ tip\r\n
+comment1.params=tipShape
+comment1.target=void\ setTipShape(java.lang.String)
+comment1.text=\r\n\ mutator\ method\ for\ tipShape.\ Valid\ shapes\ are\ "chisel",\ "bullet",\ and\ "wide"\r\n\r\n\ @param\ tipShape\ \tthe\ shape\ of\ the\ writing\ tip.\r\n
+comment2.params=inkColor\ tipShape\ tipSize
+comment2.target=Marker(java.lang.String,\ java.lang.String,\ double)
+comment2.text=\r\n\ The\ constructor\ for\ a\ Marker.\ It\ allows\ you\ to\ specify\ its\ color,\ shape,\ and\ size\r\n\r\n\ @param\ \tinkColor\tThe\ color\ of\ the\ marker.\ It\ can\ be\ any\ string\ that\ names\ a\ color\r\n\ @param\ \ttipShape\tThe\ shape\ of\ the\ writing\ tip.\ Valid\ shapes\ are\ "chisel",\ "bullet",\ and\ "wide"\r\n\ @param\ \ttipSize\tThe\ size\ of\ the\ tip\ in\ millimeters.\ Must\ be\ positive\r\n
+comment3.params=
+comment3.target=Marker()
+comment3.text=\r\n\ The\ default\ constructor\ for\ a\ marker.\ It\ creates\ a\ black\ chisel\ point\ marker\ with\ a\r\n\ quarter-inch\ (63.5mm)\ tip.\r\n
+comment4.params=something
+comment4.target=void\ draw(java.lang.String)
+comment4.text=\r\n\ Method\ to\ describe\ the\ marker\ drawing\ something\r\n\r\n\ @param\ \tsomething\tthe\ item\ being\ drawn\r\n
+comment5.params=shape
+comment5.target=void\ Color(java.lang.String)
+comment5.text=\r\n\ A\ method\ to\ simulate\ the\ marker\ coloring\ a\ shape\r\n\r\n\ @param\ \tshape\t\tthe\ shape\ being\ colored\r\n
+numComments=6
