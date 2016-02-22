@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getInkColor()
+comment0.text=\r\n\ accessor\ method\ for\ inkColor\r\n\r\n\ returns\ the\ color\ of\ the\ ink\r\n
+comment1.params=inkColor
+comment1.target=void\ setInkColor(java.lang.String)
+comment1.text=\r\n\ mutator\ method\ for\ inkColor\r\n\r\n\ @param\ \tinkColor\t\tthe\ color\ of\ the\ ink\r\n
+comment2.params=inkColor\ bodyMaterial\ tipSize
+comment2.target=Pen(java.lang.String,\ java.lang.String,\ double)
+comment2.text=\r\n\ Constructor\ for\ a\ Pen\ object.\ It\ allows\ you\ specify\ the\ color\ of\ the\ ink,\ the\ material\ it\ is\ made\ of,\r\n\ and\ the\ size\ of\ the\ writing\ tip\r\n\r\n\ @param\tinkColor\t\t\tthe\ color\ of\ the\ ink\r\n\ @param\ \tbodyMaterial\tThe\ pen's\ material.\ It\ must\ be\ one\ of\ "plastic",\ "metal",\ or\ "wooden"\r\n\ @param\ \ttipSize\t\t\tThe\ size\ of\ the\ point\ in\ millimeters\ (must\ be\ positive)\r\n
+comment3.params=
+comment3.target=Pen()
+comment3.text=\r\n\ The\ default\ constructor\ for\ a\ pen.\ It\ creates\ a\ plastic\ pen\ that\ writes\ in\ purple\ with\ a\ 0.5mm\ tip\r\n
+comment4.params=message
+comment4.target=void\ write(java.lang.String)
+comment4.text=\r\n\ A\ method\ to\ simulate\ the\ pen\ writing\ a\ message.\r\n\r\n\ @param\ name\="message">the\ message\ the\ pen\ writes\r\n
+comment5.params=words
+comment5.target=void\ markOut(java.lang.String)
+comment5.text=\r\n\ A\ method\ to\ simulate\ the\ pen\ crossing\ out\ words\ (since\ it\ can't\ erase)\r\n\ \r\n\ @param\ words\ the\ words\ being\ marked\ out\r\n
+numComments=6

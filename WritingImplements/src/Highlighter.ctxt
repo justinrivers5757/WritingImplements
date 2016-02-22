@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=bodySize\ bodyColor
+comment0.target=Highlighter(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ a\ Highlighter.\ Allows\ you\ to\ choose\ the\ color,\ size\ of\ the\ tip,\r\n\ and\ the\ size\ of\ the\ actual\ highlighter.\ \r\n\ \r\n\ @param\ \ \ bodySize\ \ \ \ Size\ of\ the\ highlighter\r\n\ @param\ \ \ tipSize\ \ \ \ \ Size\ of\ the\ highlighter\ tip\r\n\ @param\ \ \ bodyColor\ \ Color\ of\ the\ highlighter\ body\r\n
+comment1.params=
+comment1.target=Highlighter()
+comment1.text=\r\n\ Default\ constructor\r\n
+comment2.params=something
+comment2.target=void\ highlight(java.lang.String)
+comment2.text=\r\n\ A\ method\ to\ hightlight\ "words"\r\n\ \r\n\ @param\ \ string\ \ \ words\ to\ be\ highlighted\r\n\ @return\ the\ "text"\ was\ highlighted\r\n
+numComments=3
